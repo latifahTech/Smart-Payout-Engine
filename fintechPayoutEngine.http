@@ -1,0 +1,6 @@
+@fintechPayoutEngine_HostAddress = http://localhost:5035
+
+GET {{fintechPayoutEngine_HostAddress}}/api/payouts
+Accept: application/json
+
+###

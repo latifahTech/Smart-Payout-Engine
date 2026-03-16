@@ -162,7 +162,6 @@ namespace FintechPayoutEngine.Controllers
                 </body>
                 </html>");
 
-            // 5. إرجاع الصفحة كـ HTML content
             return Content(html.ToString(), "text/html");
         }
     }

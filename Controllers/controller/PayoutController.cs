@@ -157,7 +157,7 @@ namespace FintechPayoutEngine.Controllers
             html.Append(@"
                             </tbody>
                         </table>
-                        <a href='/' class='back-btn'>&larr; Back to API Home</a>
+                        <a href='/' class='back-btn'>&larr; Back to home</a>
                     </div>
                 </body>
                 </html>");

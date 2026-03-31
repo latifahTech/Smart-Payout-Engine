@@ -28,7 +28,7 @@ app.MapGet("/", () => Results.Content(@"
     </head>
     <body>
         <div class='card'>
-            <div class='logo'>Smart Repayment Schedule Generator</div>
+            <div class='logo'>Smart Payout Engine</div>
             <form action='/api/Payout/calculate' method='get'>
                 <div class='form-group'>
                     <label>Principal Amount ($)</label>

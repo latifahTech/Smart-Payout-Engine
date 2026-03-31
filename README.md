@@ -27,4 +27,4 @@ In the fintech industry, precision and transparency are paramount. This project 
 ## ⚙️ How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/latifahTech/Fintech-Payout-Engine.git](https://github.com/latifahTech/Fintech-Payout-Engine.git)
+   git clone https://github.com/latifahTech/Smart-Payout-Engine.git

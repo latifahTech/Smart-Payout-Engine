@@ -1,4 +1,4 @@
-# 💸 Fintech Payout Engine
+# 💸 Smart Payout Engine
 
 A high-performance **.NET 8 Web API** micro-service designed for precision financial scheduling. This engine automates the calculation of repayment schedules and interest distribution for debt-based crowdfunding models.
 

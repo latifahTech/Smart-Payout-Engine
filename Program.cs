@@ -9,8 +9,8 @@ app.MapGet("/", () => Results.Content(@"
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Fintech Payout Engine</title>
-        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <title>Smart Payout Engine</title>
+        <link rel='icon' type='image/png' href='assets/imgs/favicon.png'>        <link rel='preconnect' href='https://fonts.googleapis.com'>
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
         <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap' rel='stylesheet'>
         <style>
@@ -50,5 +50,6 @@ app.MapGet("/", () => Results.Content(@"
     </html>", "text/html"));
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.MapControllers();
 app.Run();
